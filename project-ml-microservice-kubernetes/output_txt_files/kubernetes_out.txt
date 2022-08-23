@@ -1,1 +1,8 @@
-<paste log output from Kubernetes-mediated prediction, here>
+pod/predictor created
+NAME        READY   STATUS              RESTARTS   AGE
+predictor   0/1     ContainerCreating   0          0s
+NAME        READY   STATUS    RESTARTS   AGE
+predictor   1/1     Running   0          30s
+Forwarding from 127.0.0.1:8000 -> 80
+Forwarding from [::1]:8000 -> 80
+Handling connection for 8000
