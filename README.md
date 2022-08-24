@@ -27,13 +27,11 @@ python3 -m virtualenv --python=<path-to-Python3.7> .devops
 ```bash
  source .devops/bin/activate
  ```
-* Run `make install` to install the necessary dependencies in the `requirements.txt` using the `Makefile` commands:
+* Run `make install` to install the necessary dependencies in the `requirements.txt` & install hadolint using the `Makefile` commands:
 ```bash
 pip install --upgrade pip &&\
   pip install -r requirements.txt
-```
-* Install hadolint using the commands:
-```bash
+# Install hadolint
 sudo wget -O /bin/hadolint https://github.com/hadolint/hadolint/releases/download/v1.16.3/hadolint-Linux-x86_64 &&\
   sudo chmod +x /bin/hadolint
 ```
